@@ -1,0 +1,825 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>微信对话生成器_微信聊天在线生成器_微信对话生成器在线_微信对话在线制作_微信截图生成器_微信对话框生成器</title>
+    <meta name="keywords" content="微信对话生成器,微信聊天在线生成器,微信对话生成器在线,微信对话在线制作,微信截图生成器,微信对话框生成器"/>
+    <meta name="description"
+          content="微信对话生成器，您只需要个添加用户，然后选择你要发对话的类型，如文字、图片、视频、语音、转账、收账、发红包等，对话内容设置好后点击生成图片，一键保存即可，3个用户以上可以进行群聊哦。这个是一个微商微信支付宝米图生成器神器，是微商必不可少的好工具"/>
+    <meta name="renderer" content="webkit">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="/favicon.png?v=3">
+    <link href="lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/metismenu/metisMenu.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+<!--    <link href="lib/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.min.css"
+          rel="stylesheet" type="text/css">
+    <link href="lib/datetimepicker/datetimepicker_blue.css" rel="stylesheet" type="text/css">
+    <link href="lib/datetimepicker/dropdown.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/common.css?v=2015100301">
+    <style type="text/css">
+        .apps {
+            display: block;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        var is_check_brower = true;
+        var is_mobile = '';
+    </script>
+    <script>
+        var image_type = 0;
+    </script>
+    <script src="lib/bootstrap/bootstrap.min.js"></script>
+    <script src="lib/metismenu/metisMenu.min.js"></script>
+    <script type="text/javascript"
+            src="lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript"
+            src="lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js"
+            charset="UTF-8"></script>
+    <script src="js/jquery.sglide.js"></script>
+    <script src="js/sb-admin-2.js"></script>
+    <script type="text/javascript" src="lib/html2canvas/html2canvas.min.js"></script>
+    <script type="text/javascript" src="js/emoji.js"></script>
+    <script type="text/javascript" src="js/functions.js?v=2015100301"></script>
+    <script type="text/javascript" src="js/common.js?v=2015100301"></script>
+</head>
+<body>
+<iframe id="ifm" frameborder="0" class="hide_ifm" src="blank.html"></iframe>
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a href="/" class="top-logo">微信对话</a>
+            <a href="javascript:;" id="btn-menu">Menu</a>
+            <script>
+                $(function () {
+                    $('#btn-menu').click(function () {
+                        $('.sidebar-nav').toggle();
+                    });
+                });
+
+                window.apiready = function () {
+                    $('.btn-login-register').click(function () {
+                        api.execScript({
+                            name: 'root',
+                            script: 'set_user_page()'
+                        });
+                        setTimeout(function () {
+                            api.closeWin();
+                        }, 300);
+                        return false;
+                    });
+
+                    var exit_div = $('.dropdown-user .divider').last();
+                    exit_div.next().hide();
+                    exit_div.hide();
+
+                    $('#side-menu>li').eq('2').hide();
+                    $('#side-menu>li').eq('3').hide();
+
+                    if (!$('.btn-back').length) {
+                        $('#wrapper').append('<a class="btn-back"><span>返回帮助列表</span></a>');
+                        $('.btn-back').click(function () {
+                            api.historyBack({}, function (ret, err) {
+                                if (!ret.status) {
+                                    api.closeWin();
+                                }
+                            });
+                            return false;
+                        });
+                    }
+
+
+                }
+            </script>
+        </div>
+        <ul class="nav navbar-top-links navbar-right">
+            <li class="menu-agent">
+                <a href="/agent/index.html">
+                    <i class="fa fa-users fa-fw"></i>
+                    代理商后台
+                </a>
+            </li>
+            <li>
+                <a class="btn-login-register" href="/user/login.html">
+                    <i class="fa fa-sign-in fa-fw"></i> 登录
+                </a>
+            </li>
+            <li>
+                <a class="btn-login-register" href="/user/register.html">
+                    <i class="fa fa-check fa-fw"></i> 注册
+                </a>
+            </li>
+        </ul>
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse collapse">
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <a href="/index/index.html"><i class="fa fa-home fa-fw"></i> 首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="fa fa-wechat fa-fw"></i> 微信<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/wxchat/index.html">微信对话生成</a>
+                            </li>
+                            <li>
+                                <a href="/wxchat/pay_detail.html">微信转账详情生成</a>
+                            </li>
+                            <li>
+                                <a href="/wxchat/wallet.html">微信零钱页面生成</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="fa fa-shield fa-fw"></i> 支付宝<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/alipay/index.html">支付宝转账生成</a>
+                            </li>
+                            <li>
+                                <a href="/alipay/balance.html">支付宝账户余额生成</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="fa fa-credit-card fa-fw"></i> 卡密<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/card/index.html">卡密通道</a>
+                            </li>
+                            <li>
+                                <a href="/card/record.html">卡密开通记录</a>
+                            </li>
+                            <li>
+                                <a href="/card/about.html">什么是卡密</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/help/index.html"><i class="fa fa-question-circle fa-fw"></i> 使用与帮助</a>
+                    </li>
+                    <li>
+                        <a href="/help/water.html"><i class="fa fa-phone-square fa-fw"></i> 价格与客服</a>
+                    </li>
+                    <li>
+                        <a href="/suggest/index.html"><i class="fa fa-file-text fa-fw"></i> 建议意见</a>
+                    </li>
+                    <li>
+                        <a href="/agent/index.html"><i class="fa fa-users fa-fw"></i> 代理商后台</a>
+                    </li>
+                    <li>
+                        <a href="/user/ageement.html"><i class="fa fa-users fa-fw"></i> 用户协议</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">微信对话生成</h3>
+            </div>
+        </div>
+        <div class="alert alert-danger message" style="margin-bottom:10px;"><a href="http://api.vjietu.com/pay">
+            <div style='text-align:center;font-size:18px;padding:5px 0;'>在线支付包年活动价（原价128）</div>
+            <div style='text-align:center;font-size:38px;color:#f00;line-height: normal;'> 88</div>
+            <div style='text-align:center;font-size:16px;color:#f00;'>名额有限，售完即止，点击进去即可抢购，仅限在线自动开通，人工开通无效！</div>
+           <!-- <script>localStorage.setItem('__IS_ADV__', '1');
+            api.execScript({name: 'root', script: 'set_adv_nav()'});</script>-->
+        </a></div>
+        <div class="alert alert-danger message" style="margin-bottom:10px;"><a href="https://www.vjietu.com/help/ad">
+            <div style='color:#f00;text-align:center;font-size: 16px; padding: 5px 0'>微商神器 开通朋友圈一键转发功能</div>
+        </a></div>
+        <div class="alert alert-danger message" style="margin-bottom:10px;"><a
+                href="http://api.vjietu.com/User/ageement.html">
+            <div style='color:#f00;text-align:center;font-size: 16px; padding: 5px 0'>本软件仅供娱乐，请勿用于违法犯罪行！！</div>
+        </a></div>
+        <div class="alert alert-danger message" style="margin-bottom:10px;"><a
+                href="http://www.vjietu.com/home/coupon/index/uid/0.html">
+            <div style="text-align:center;font-size: 18px;">★★ 恭喜您 ★★</div>
+            <div style="text-align:center;font-size: 16px;">您被抽中获得优惠券一张，点击进去查看</div>
+        </a></div>
+        <div class="row" style="position:relative;padding: 0 15px;">
+            <div class="panel-body panel-wx-tab">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#w1" data-toggle="tab">外观设置</a></li>
+                    <li><a href="#w2" data-toggle="tab">对话设置</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="w1">
+                        <div class="setting">
+                            <p>
+                                <span>信号强度：</span>
+                                <select class="slt-common" data-class="i-signal">
+                                    <option value="i-signal1">1格</option>
+                                    <option value="i-signal2">2格</option>
+                                    <option value="i-signal3">3格</option>
+                                    <option value="i-signal4">4格</option>
+                                    <option selected value="i-signal5">5格</option>
+                                </select>
+                            </p>
+                            <p>
+                                <span>运营商：</span>
+                                <select class="slt-common" data-class="i-carrier">
+                                    <option value="i-c-yd">中国移动</option>
+                                    <option value="i-c-lt">中国联通</option>
+                                    <option value="i-c-dx">中国电信</option>
+                                </select>
+                            </p>
+                            <p>
+                                <span>网络信号：</span>
+                                <select class="slt-common" data-class="i-network">
+                                    <option value="">无</option>
+                                    <option selected value="i-n-wifi">Wifi</option>
+                                    <option value="i-n-g">G</option>
+                                    <option value="i-n-e">E</option>
+                                    <option value="i-n-3g">3G</option>
+                                    <option value="i-n-4g">4G</option>
+                                </select>
+                            </p>
+                            <p>
+                                <span>手机时间：</span>
+                                <select class="slt-phone-time slt-p-shi">
+                                    <option>-</option>
+                                    <option>上午</option>
+                                    <option>下午</option>
+                                </select>
+                                <select class="slt-phone-time slt-p-hour">
+                                </select> :
+                                <select class="slt-phone-time slt-p-minite">
+                                </select>
+                            </p>
+                            <p>
+                                <span>锁定旋转：</span>
+                                <label><input class="rd-common" data-class="i-top-dir" type="radio" name="top-dir"
+                                              value="1" checked/> 显示</label>
+                                <label><input class="rd-common" data-class="i-top-dir" type="radio" name="top-dir"
+                                              value="0"/> 不显示</label>
+                            </p>
+                            <div style="margin: 0 0 10px;margin-top: 20px;">
+                                <span>电量：</span>
+                                <div class="slider_bar"></div>
+                            </div>
+                            <p>
+                                <span>电池状态：</span>
+                                <select class="slt-common" data-class="i-top-berry">
+                                    <option value="">正常</option>
+                                    <option value="i-top-berry2">充电中</option>
+                                </select>
+                            </p>
+                            <p>
+                                <span>电池百分比：</span>
+                                <label><input class="rd-common" data-class="i-top-berry-num" type="radio"
+                                              name="i-top-berry-num" value="1" checked/> 显示</label>
+                                <label><input class="rd-common" data-class="i-top-berry-num" type="radio"
+                                              name="i-top-berry-num" value="0"/> 不显示</label>
+                            </p>
+                            <p>
+                                <span>听筒模式：</span>
+                                <label><input class="rd-common" data-class="i-n-ear" type="radio" name="i-n-ear"
+                                              value="1"/> 显示</label>
+                                <label><input class="rd-common" data-class="i-n-ear" type="radio" name="i-n-ear"
+                                              value="0" checked/> 不显示</label>
+                            </p>
+                            <p>
+                                <span>聊天模式：</span>
+                                <select class="slt-common" data-class="i-n-user">
+                                    <option value="">单聊</option>
+                                    <option value="i-n-user-group">群聊</option>
+                                </select>
+                            </p>
+                            <p>
+                                <span>聊天标题：</span>
+                                <input type="text" value="duang~~~" data-class="i-n-name span" class="input-common"/>
+                            </p>
+                            <p>
+                                <span>消息数目：</span>
+                                <input type="text" value="" class="input-i-n-count"/>
+                                <a class="btn-del-i-n-count" href="#">删除数目</a>
+                            </p>
+                            <p>
+                                <span>显示用户昵称：</span>
+                                <label><input class="rd-common" data-class="i-b-nick" type="radio" name="i-b-nick"
+                                              value="0" checked/> 不显示</label>
+                                <label><input class="rd-common" data-class="i-b-nick" type="radio" name="i-b-nick"
+                                              value="1"/> 显示</label>
+                            </p>
+                            <p>
+                                <span>底部输入框：</span>
+                                <select class="slt-common" data-class="i-bottom">
+                                    <option value="">文本模式</option>
+                                    <option value="i-bottom2">语音模式</option>
+                                </select>
+                            </p>
+                            <div style="overflow:hidden;margin:20px 0 40px 0;">
+<span style="float:left;margin-right:10px;">背景图片：
+<div style="color:#f00">(图片大小:宽640 x 高1136)</div>
+<a class="body_bg_del btn btn-danger btn_no_water" href="#">删除背景</a>
+</span>
+                                <div class="a-u-pic a-u-pic-bodybg">
+                                    <div class="a-u-pic-show">
+                                        <input type="file" data-callback="set_body_bg" accept="image/jpeg,image/x-png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="w2">
+                        <div class="setting">
+                            <p style="border-bottom:1px #ccc dotted;padding-bottom:10px;">
+                                <span>添加聊天时间：</span>
+                                <select class="slt-xinqi">
+                                    <option>-</option>
+                                    <option>星期一</option>
+                                    <option>星期二</option>
+                                    <option>星期三</option>
+                                    <option>星期四</option>
+                                    <option>星期五</option>
+                                    <option>星期六</option>
+                                    <option>星期日</option>
+                                </select>
+                                <select class="slt-shi">
+                                    <option>-</option>
+                                    <option>上午</option>
+                                    <option>下午</option>
+                                    <option>凌晨</option>
+                                </select>
+                                <select class="slt-hour">
+                                </select> :
+                                <select class="slt-minite">
+                                </select> &nbsp;
+                                <a class="add-time-btn btn btn-primary btn-sm" href="#">添加</a>
+                            </p>
+                            <div class="users">
+                                <div class="add-user">
+                                    <div class="a-u-pic">
+                                        <div class="a-u-pic-show">
+                                            <input type="file" accept="image/jpeg,image/x-png"/>
+                                        </div>
+                                    </div>
+                                    <div class="a-u-name">
+                                        <p><span>用户名：</span><input class="a-u-data-name" type="text" value=""/></p>
+                                        <p><span>聊天内容：</span><textarea class="a-u-content">欢迎使用微信对话</textarea><a
+                                                class="a-u-face btn-add-face" data-input="a-u-content" href="#">表情</a>
+                                        </p>
+                                        <p><span>转账/收钱金额：</span><input class="a-u-data-pay" type="text" value="88.88"/>
+                                        </p>
+                                        <p><span>语音时间：</span><input class="a-u-data-voice" type="text" value="10"/></p>
+                                        <p>
+                                            <input style="margin-right:5px;" class="btn-rand-username" type="button"
+                                                   value="随机用户名"/>
+                                            <input class="btn-rand-face" type="button" value="随机头像"/>
+                                        </p>
+                                    </div>
+                                    <div class="a-u-dialog" style="clear:both;"><a class="btn btn-primary"
+                                                                                   data-type="left" href="#">添加文字对话</a>
+                                    </div>
+                                    <div class="a-u-dialog-voice"><a class="btn btn-primary" data-type="left" href="#">添加语音对话</a>
+                                    </div>
+                                    <div class="a-u-dialog-pay"><a class="btn btn-primary" data-dir="send"
+                                                                   data-type="left" href="#">添加转账对话</a></div>
+                                    <div class="a-u-dialog-pay"><a class="btn btn-primary" data-dir="rec"
+                                                                   data-type="left" href="#">添加收钱对话</a></div>
+                                    <div class="a-u-dialog-master"><a class="btn btn-primary btn-success"
+                                                                      href="#">设为主人</a></div>
+                                    <div class="a-u-dialog-del"><a class="btn btn-danger" href="#">删除用户</a></div>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <input id="add-user" class="btn btn-success" type="button" value="添加用户"/>
+                                <input class="btn btn-success clear-dialog" type="button" value="清除对话"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-btns">
+                <div class="loading">正在生成，请稍候......</div>
+                <input id="save" class="btn btn-primary" type="button" value="生成图片"/>
+                <input class="btn btn-success btn-apps" type="button" value="手机软件版"/>
+                <a id="btn-water" class="btn btn-danger btn_no_water" target="_blank" href="/help/water.html">去水印</a>
+            </div>
+            <div class="phone-wrap">
+                <div id="iphone" class="iphone iphone-preview">
+                    <div class="i-top">
+                        <div class="i-top-elm i-signal"></div>
+                        <div class="i-top-elm i-carrier i-c-yd"></div>
+                        <div class="i-top-elm i-network i-n-wifi"></div>
+                        <div class="i-top-elm i-top-time">00:00</div>
+                        <div class="i-top-elm-r i-top-berry"><i><em></em></i></div>
+                        <div class="i-top-elm-r i-top-berry-num">50%</div>
+                        <div class="i-top-elm-r i-top-dir"></div>
+                        <div class="i-nav">
+                            <div class="i-n-back">
+                                <div class="i-n-count"></div>
+                            </div>
+                            <div class="i-n-name">
+                                <span>duang~~~</span>
+                                <i class="i-n-ear" style="display:none">&nbsp;</i>
+                            </div>
+                            <div class="i-n-user"></div>
+                        </div>
+                    </div>
+                    <div class="i-body">
+                    </div>
+                    <div class="i-bottom i-bottom-wechat">
+                        <div class="i-b-we-left"></div>
+                        <div class="i-b-we-mid">
+                            <div class="i-b-we-mid-text"></div>
+                        </div>
+                        <div class="i-b-we-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="emojiPanel" id="emojiPanel">
+            <ul class="faceTab">
+                <li><a class="chooseFaceTab" href="javascript:;">QQ表情</a></li>
+            </ul>
+            <div class="faceWrap" style="zoom:1;outline:none;">
+                <div class="faceBox emojiArea"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+//            set_water();
+//            setInterval(function () {
+//                set_water();
+//            }, 2000);
+
+            //消息数目
+            var i_n_count = randomString(1);
+            if (i_n_count > 0) {
+                $('.input-i-n-count').val(i_n_count);
+                $('.i-n-count').text('(' + i_n_count + ')');
+            }
+            $('.input-i-n-count').bind('input propertychange', function () {
+                var val = $(this).val();
+                if (isNaN(val) || val == 0) {
+                    $('.i-n-count').text('');
+                    return false;
+                }
+                val = '(' + $(this).val() + ')';
+                $('.i-n-count').text(val);
+            });
+            $('.btn-del-i-n-count').click(function () {
+                $('.i-n-count').text('');
+                $('.input-i-n-count').val('');
+                return false;
+            });
+
+            $('body').on('click', '.a-u-dialog a', function () {
+                var user = $(this).parents('.add-user');
+                var index = user.index();
+                var name = user.find('.a-u-name .a-u-data-name').val();
+                var content = user.find('.a-u-name textarea').val();
+                var img = $(this).parent().parent().find('.a-u-pic-show img').clone();
+                var type = user.find('.a-u-dialog-master a').hasClass('btn-success');
+
+                if (name == '') {
+                    alert('请输入用户名！');
+                    return false;
+                }
+
+                if (content == '') {
+                    alert('请输入聊天内容！');
+                    return false;
+                }
+
+                if (!img.length) {
+                    img = '<img src="images/default-head.png" />';
+                }
+
+                content = replace_qq_emoji(content);
+
+                var msg_class = type ? 'i-b-sen-text' : 'i-b-rec-text';
+                var nick = type ? '' : '<p class="i-b-nick">' + name + '</p>';
+
+                var dialog = $('<div class="' + msg_class + '"><div>' + nick + '<span><i></i><em>' + content + '</em><a class="msg-del"></a></span></div></div>');
+                dialog.prepend(img);
+                $('.i-body').append(dialog);
+                return false;
+            });
+
+            $('.add-time-btn').click(function () {
+                var xinqi = $('.slt-xinqi option:selected').val();
+                var shi = $('.slt-shi option:selected').val();
+                var hour = $('.slt-hour option:selected').val();
+                var minite = $('.slt-minite option:selected').val();
+                var str = '';
+                if (xinqi != '-')
+                    str += xinqi + ' ';
+                if (shi != '-')
+                    str += shi;
+                str += hour + ':';
+                str += minite;
+                var html = '<div class="i-b-time"><span>' + str + '</span><a class="msg-del"></a></div>';
+                $('.i-body').append(html);
+                return false;
+            });
+
+            var set_body_bg = function () {
+                var img = $('.a-u-pic-bodybg img');
+                var src = img.attr('src');
+                $('.i-body').css('background-image', 'url(' + src + ')');
+                if (is_login) {
+                    //alert();
+                }
+            }
+
+            $('body').on('change', '.a-u-pic-show input', function () {
+                var img = document.createElement('img');//创建 img 对象
+                var _this = $(this);
+                var callback = _this.attr('data-callback');
+
+                window.URL = window.URL || window.webkitURL;
+
+                var imgFile = $(this).get(0);
+
+                if (window.URL && imgFile.files[0]) {
+                    var reader = new FileReader();
+                    reader.readAsDataURL(imgFile.files[0]);
+                    reader.onload = function (e) {
+                        var img = '<img src="' + this.result + '" alt=""/>';
+                        _this.parent().find('img').remove();
+                        _this.parent().append(img);
+
+                        if (callback) {
+                            eval(callback + '()');
+                        }
+                    }
+                }
+            });
+
+            //添加用户
+            $('#add-user').click(function () {
+                var time = (new Date()).valueOf();
+                var html = $('<div class="add-user"><div class="a-u-pic"><div class="a-u-pic-show"><input type="file" accept="image/jpeg,image/x-png" /></div></div><div class="a-u-name"><p><span>用户名：</span><input class="a-u-data-name" type="text" value="" /></p><p><span>聊天内容：</span><textarea class="a-u-content' + time + '"></textarea><a class="a-u-face btn-add-face" data-input="a-u-content' + time + '" href="#">表情</a></p><p><span>转账/收钱金额：</span><input class="a-u-data-pay" type="text" value="" /></p><p><span>语音时间：</span><input class="a-u-data-voice" type="text" value="" /></p><p><input style="margin-right:5px;" class="btn-rand-username" type="button" value="随机用户名" /><input class="btn-rand-face" type="button" value="随机头像" /></p></div><div class="a-u-dialog" style="clear:both;"><a class="btn btn-primary" data-type="left" href="#">添加文字对话</a></div><div class="a-u-dialog-voice"><a class="btn btn-primary" data-type="left" href="#">添加语音对话</a></div><div class="a-u-dialog-pay"><a class="btn btn-primary" data-dir="send" data-type="left" href="#">添加转账对话</a></div><div class="a-u-dialog-pay"><a class="btn btn-primary" data-dir="rec" data-type="left" href="#">添加收钱对话</a></div><div class="a-u-dialog-master"><a class="btn btn-primary" href="#">设为主人</a></div><div class="a-u-dialog-del"><a class="btn btn-danger" href="#">删除用户</a></div></div>');
+                $('.users').append(html);
+                html.find('.btn-rand-username').click();
+            });
+
+            //删除用户
+            $('body').on('click', '.a-u-dialog-del', function () {
+                if (confirm('您确认要删除？')) {
+                    $(this).parents('.add-user').remove();
+                }
+                return false;
+            });
+
+            /*$('body').on('mouseover','.i-b-time,.i-b-rec-text,.i-b-sen-text',function(){
+              $(this).find('.msg-del').show();
+            });
+            $('body').on('mouseout','.i-b-time,.i-b-rec-text,.i-b-sen-text',function(){
+              $(this).find('.msg-del').hide();
+            });*/
+
+            $('body').on('click', '.msg-del', function () {
+                $(this).parents('.i-b-time,.i-b-rec-text,.i-b-sen-text').remove();
+            });
+
+            $('.clear-dialog').click(function () {
+                if (confirm('您确认要清除所有对话？')) {
+                    $('.i-b-time,.i-b-rec-text,.i-b-sen-text').remove();
+                }
+            });
+
+            //添加转账对话
+            $('body').on('click', '.a-u-dialog-pay a', function () {
+                var dir = $(this).attr('data-dir');
+                var user = $(this).parents('.add-user');
+                var type = user.find('.a-u-dialog-master a').hasClass('btn-success');
+                var index = user.index();
+                var name = user.find('.a-u-name .a-u-data-name').val();
+                var pay = user.find('.a-u-name .a-u-data-pay').val();
+                var img = $(this).parent().parent().find('.a-u-pic-show img').clone();
+
+                if (name == '') {
+                    alert('请输入用户名！');
+                    return false;
+                }
+
+                if (pay == '') {
+                    alert('请输入转账/收钱金额！');
+                    return false;
+                }
+
+                if (isNaN(pay)) {
+                    alert('您输入的金额有误！');
+                    return false;
+                }
+
+                if (!img.length) {
+                    img = '<img src="images/default-head.png" />';
+                }
+
+                var wrap_class = !type ? 'i-b-rec-text' : 'i-b-sen-text';
+                var pay_class = dir == 'send' ? 'i-pay-send' : 'i-pay-rec';
+                var nick = type ? '' : '<p class="i-b-nick">' + name + '</p>';
+
+                var html = $('<div class="' + wrap_class + '"><div class="i-b-pay">' + nick + '<span class="' + pay_class + '"><i></i><em>' + toDecimal2(pay) + '</em><a class="msg-del"></a></span></div></div>');
+                html.prepend(img);
+                $('.i-body').append(html);
+
+                return false;
+            });
+
+            //添加语音对话
+            $('body').on('click', '.a-u-dialog-voice a', function () {
+                var user = $(this).parents('.add-user');
+                var name = user.find('.a-u-name .a-u-data-name').val();
+                var img = $(this).parent().parent().find('.a-u-pic-show img').clone();
+                var voice = user.find('.a-u-name .a-u-data-voice').val();
+                var type = user.find('.a-u-dialog-master a').hasClass('btn-success');
+
+                if (name == '') {
+                    alert('请输入用户名！');
+                    return false;
+                }
+
+                if (voice == '') {
+                    alert('请输入语音时间！');
+                    return false;
+                }
+
+                if (isNaN(voice)) {
+                    alert('您输入的语音时间有误！');
+                    return false;
+                }
+
+                if (!img.length) {
+                    img = '<img src="images/default-head.png" />';
+                }
+
+                var wrap_class = !type ? 'i-b-rec-text' : 'i-b-sen-text';
+                var nick = type ? '' : '<p class="i-b-nick">' + name + '</p>';
+
+                var v_len = 0;
+                var len = 0;
+                v_len = voice > 60 ? 60 : voice;
+                len = (360 - 96) / 60 * v_len + 96;
+
+                var unread = '';//type ? '' : '<strong></strong>';
+
+                var html = $('<div class="' + wrap_class + '"><div class="i-b-voice">' + nick + '<span style="width:' + len + 'px"><i></i><b></b><em>' + voice + '\'\'</em>' + unread + '<a class="msg-del"></a></span></div></div>');
+
+                html.prepend(img);
+                $('.i-body').append(html);
+
+                return false;
+            });
+
+            //主人切换
+            $('body').on('click', '.a-u-dialog-master a', function () {
+                var parent = $(this).parents('.users');
+                parent.find('.a-u-dialog-master a').removeClass('btn-success');
+                $(this).addClass('btn-success');
+                return false;
+            });
+
+            $('.body_bg_del').click(function () {
+                $('.i-body').css('background-image', 'none');
+                $('.a-u-pic-bodybg img').remove();
+                return false;
+            });
+
+            $('#add-user').click();
+
+            setTimeout(function () {
+                $('.btn-rand-face').click();
+                $('.btn-rand-username').click();
+            }, 500);
+        </script>
+    </div>
+</div>
+<div class="pop-pic">
+    <img src="about:blank"/>
+    <div class="tips">
+        <p class="tips-mobile">手指按住上面的图片三秒钟保存到手机</p>
+        <p class="tips-pc">请将鼠标移动到上面图片上，然后点击鼠标右键，选择保持图片</p>
+        <a>继续制作</a>
+    </div>
+</div>
+<script>
+    $(function () {
+        $('.pop-pic .tips a').click(function () {
+            $('.pop-pic').hide();
+            $('#wrapper').show();
+        });
+
+        $('#save').click(function () {
+            var _this = $(this);
+            var div = $('#iphone').clone();
+            var my_image = $('.my-image');
+            var mask = $('.mask');
+            if (!my_image.length) {
+                my_image = $('<div class="my-image">成功生成图片，点击 <a class="my-image-view" target="_blank" href="#">这里</a> 查看，<a class="my-image-continue" href="#">继续制作</a></div>');
+                $('body').append(my_image);
+            }
+            if (!mask.length) {
+                $('body').append('<div class="mask"></div>');
+            }
+            div.removeClass('iphone-preview');
+            div.css({
+                zoom: 1,
+                position: 'absolute',
+                left: 0,
+                top: 0
+            });
+            $('#ifm').contents().find('body').append(div);
+            _this.hide();
+            $('.loading').show();
+            $('.my-image').hide();
+            $('.mask').hide();
+            html2canvas(div, {
+                onrendered: function (canvas) {
+                    var myImage = canvas.toDataURL("image/png");
+                    var pop_pic = $('.pop-pic');
+                    var pop_class = 'pc';
+                    if (browser.versions.mobile) {
+                        pop_class = 'mobile';
+                    }
+                    pop_pic.find('.tips').addClass(pop_class);
+                    pop_pic.find('img').attr('src', myImage);
+                    pop_pic.show();
+                    $('#wrapper').hide();
+                    $('.loading').hide();
+                    _this.show();
+
+//                    $.ajax({
+//                        type: "POST",
+//                        url: '/file/uploadbydata.html',
+//                        data: {data: '', type: image_type},
+//                        timeout: 60000
+//                    });
+                    div.remove();
+                }
+            });
+            return false;
+        });
+
+        $('.btn-apps').click(function () {
+            $('.apps').toggle();
+        });
+
+        $('.apps-close').click(function () {
+            $('.apps').hide();
+        });
+
+        $('.my-btns').after($('.apps'));
+    });
+</script>
+<div class="apps">
+    <div class="apps-notice">手机软件版比网页版强大哦！可以选择手机型号，还有新版支付宝转账、微信对话发送图片、视频、红包等功能，在下面选择下载吧！</div>
+    <a href="/app/apple.html" target="_blank">
+        <i class="fa fa-apple" style="color:#000"></i>
+        <span style="display:block">苹果手机软件版</span>
+    </a>
+    <a class="btn-android" href="http://og3o1st3t.bkt.clouddn.com/vjietu.apk" target="_blank">
+        <i class="fa fa-android" style="color:#85C808"></i>
+        <span style="display:block">安卓手机软件版</span>
+    </a>
+    <a class="apps-close"></a>
+</div>
+<script type="text/javascript">
+    (function () {
+        var ThinkPHP = window.Think = {
+            "ROOT": "", //当前网站地址
+            "APP": "", //当前项目地址
+            "PUBLIC": "/Public", //项目公共目录地址
+            "DEEP": "/", //PATHINFO分割符
+            "MODEL": ["2", "1", "html"],
+            "VAR": ["m", "c", "a"]
+        }
+    })();
+</script>
+<!--<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?8f57c803627904197e3106cb25023cbc";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>-->
+<div class="hidden">
+</div>
+<script>
+    $(function () {
+        $('.btn-android').each(function (i, item) {
+            $(item).attr('href', $(item).attr('href') + '?_t=' + (new Date()).valueOf());
+        });
+    });
+</script>
+</body>
+</html>
