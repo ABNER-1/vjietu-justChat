@@ -25,7 +25,11 @@
     <link rel="stylesheet" type="text/css" href="css/common.css?v=2015100301">
     <style type="text/css">
         .apps {
-            display: block;
+            /*display: block;*/
+            display: none;
+        }
+        nav{
+            display:none!important;
         }
     </style>
     <!--[if lt IE 9]>
@@ -57,7 +61,7 @@
 <body>
 <iframe id="ifm" frameborder="0" class="hide_ifm" src="blank.html"></iframe>
 <div id="wrapper">
-    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <!----><nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
             <a href="/" class="top-logo">微信对话</a>
             <a href="javascript:;" id="btn-menu">Menu</a>
@@ -191,17 +195,17 @@
                 <h3 class="page-header">微信对话生成</h3>
             </div>
         </div>
-        <div class="alert alert-danger message" style="margin-bottom:10px;"><a href="http://api.vjietu.com/pay">
+<!--        <div class="alert alert-danger message" style="margin-bottom:10px;"><a href="http://api.vjietu.com/pay">
             <div style='text-align:center;font-size:18px;padding:5px 0;'>在线支付包年活动价（原价128）</div>
             <div style='text-align:center;font-size:38px;color:#f00;line-height: normal;'> 88</div>
             <div style='text-align:center;font-size:16px;color:#f00;'>名额有限，售完即止，点击进去即可抢购，仅限在线自动开通，人工开通无效！</div>
-           <!-- <script>localStorage.setItem('__IS_ADV__', '1');
-            api.execScript({name: 'root', script: 'set_adv_nav()'});</script>-->
+           &lt;!&ndash; <script>localStorage.setItem('__IS_ADV__', '1');
+            api.execScript({name: 'root', script: 'set_adv_nav()'});</script>&ndash;&gt;
         </a></div>
         <div class="alert alert-danger message" style="margin-bottom:10px;"><a href="https://www.vjietu.com/help/ad">
             <div style='color:#f00;text-align:center;font-size: 16px; padding: 5px 0'>微商神器 开通朋友圈一键转发功能</div>
-        </a></div>
-        <div class="alert alert-danger message" style="margin-bottom:10px;"><a
+        </a></div>-->
+<!--        <div class="alert alert-danger message" style="margin-bottom:10px;"><a
                 href="http://api.vjietu.com/User/ageement.html">
             <div style='color:#f00;text-align:center;font-size: 16px; padding: 5px 0'>本软件仅供娱乐，请勿用于违法犯罪行！！</div>
         </a></div>
@@ -209,7 +213,7 @@
                 href="http://www.vjietu.com/home/coupon/index/uid/0.html">
             <div style="text-align:center;font-size: 18px;">★★ 恭喜您 ★★</div>
             <div style="text-align:center;font-size: 16px;">您被抽中获得优惠券一张，点击进去查看</div>
-        </a></div>
+        </a></div>-->
         <div class="row" style="position:relative;padding: 0 15px;">
             <div class="panel-body panel-wx-tab">
                 <ul class="nav nav-tabs">
@@ -407,8 +411,10 @@
             <div class="my-btns">
                 <div class="loading">正在生成，请稍候......</div>
                 <input id="save" class="btn btn-primary" type="button" value="生成图片"/>
+<!--
                 <input class="btn btn-success btn-apps" type="button" value="手机软件版"/>
-                <a id="btn-water" class="btn btn-danger btn_no_water" target="_blank" href="/help/water.html">去水印</a>
+-->
+ <!--               <a id="btn-water" class="btn btn-danger btn_no_water" target="_blank" href="/help/water.html">去水印</a>-->
             </div>
             <div class="phone-wrap">
                 <div id="iphone" class="iphone iphone-preview">
@@ -425,7 +431,7 @@
                                 <div class="i-n-count"></div>
                             </div>
                             <div class="i-n-name">
-                                <span>duang~~~</span>
+                                <span>test</span>
                                 <i class="i-n-ear" style="display:none">&nbsp;</i>
                             </div>
                             <div class="i-n-user"></div>
@@ -768,15 +774,15 @@
             return false;
         });
 
-        $('.btn-apps').click(function () {
-            $('.apps').toggle();
-        });
-
-        $('.apps-close').click(function () {
-            $('.apps').hide();
-        });
-
-        $('.my-btns').after($('.apps'));
+//        $('.btn-apps').click(function () {
+//            $('.apps').toggle();
+//        });
+//
+//        $('.apps-close').click(function () {
+//            $('.apps').hide();
+//        });
+//
+//        $('.my-btns').after($('.apps'));
     });
 </script>
 <div class="apps">
