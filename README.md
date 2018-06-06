@@ -15,9 +15,9 @@
 - 通过[html2canvas](https://github.com/niklasvh/html2canvas)插件转换html生成图片
 ## 效果
 - 单聊
-![单聊](https://github.com/hu-qi/vjietu-justChat/raw/master/sreenshoots/liveShare.gif)
+![单聊](https://github.com/hu-qi/vjietu-justChat/blob/master/sreenshoots/liveShare.gif)
 - 群聊
-![群聊](https://github.com/hu-qi/vjietu-justChat/raw/master/sreenshoots/liveShare1.gif)
+![群聊](https://github.com/hu-qi/vjietu-justChat/blob/master/sreenshoots/liveShare1.gif)
 #### 声明
 本代码从vjietu官网获取，解除了水印；暂时只copy了微信聊天界面的恶搞。
 预览地址：http://www.fashaoge.com/vjietu/index.html
