@@ -1,104 +1,396 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2730eae-0cb4-4c5b-b167-dcd39c1339cf" name="Default" comment="" />
+    <list default="true" id="e2730eae-0cb4-4c5b-b167-dcd39c1339cf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/wx2019.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/html2canvas/html2canvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vjietu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vjietu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10014.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10015.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10015.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10016.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10020.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10022.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10023.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10023.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10024.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10025.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10025.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10026.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10027.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10027.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10028.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10028.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10029.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10029.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10030.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10030.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10031.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10031.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10032.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10032.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10033.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10033.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10034.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10034.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10035.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10036.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10036.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10037.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10038.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10038.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10039.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10039.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10040.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10040.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face/10041.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/face/10041.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/HelveticaNeueLTPro-Lt.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/HelveticaNeueLTPro-Lt.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560102dcce372.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560102dcce372.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/5601083863b4a.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/5601083863b4a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56010b0ebea42.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56010b0ebea42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/5601332d5800a.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/5601332d5800a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560134c40bbef.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560134c40bbef.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/5601356c8e2ac.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/5601356c8e2ac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560136195603c.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560136195603c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560137a6d7b99.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560137a6d7b99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560150f93d0c5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560150f93d0c5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560153c419f4e.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560153c419f4e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560158a29c6a5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560158a29c6a5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560159aa5b4d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560159aa5b4d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56015a2072df8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56015a2072df8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56015c95d3a73.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56015c95d3a73.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56015cb390f0c.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56015cb390f0c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/5601675b54e05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/5601675b54e05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/560167fb96a99.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/560167fb96a99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56505478183d4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56505478183d4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/5650569de25e8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/5650569de25e8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56fd41539879f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56fd41539879f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/56fd41b2d96d6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/56fd41b2d96d6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/57e55b673611c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/57e55b673611c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/57e55c1b0cbd1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/57e55c1b0cbd1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/57e55cfe404d7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/57e55cfe404d7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/57e55d48e5f3b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/57e55d48e5f3b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/57e55e049016f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/57e55e049016f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/58817daf0b9f4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/58817daf0b9f4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/58817dc9d79e9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/58817dc9d79e9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/58817dcb48551.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/58817dcb48551.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/58817dcbaf79e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/58817dcbaf79e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/58817dcc1fdf1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/58817dcc1fdf1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/58817dcc851a0.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/58817dcc851a0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ad1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ad1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ad2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ad2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ad3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ad3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ad4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ad4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/add-pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/add-pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ali-balance-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ali-balance-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ali-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ali-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ali-bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ali-bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ali-default-face.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ali-default-face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ali-face-mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ali-face-mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/api.php-text=http---www.vjietu.com-app-apple-from-qr.html&amp;m=0&amp;w240.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/api.php-text=http---www.vjietu.com-app-apple-from-qr.html&amp;m=0&amp;w240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apps-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/apps-close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/btn-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/btn-back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/btn-face.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/btn-face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/btn-menu-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/btn-menu-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/card-help-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/card-help-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/card-help-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/card-help-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chrome.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/chrome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/default-head.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/default-head.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ftand_step_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ftand_step_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ftios_step_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ftios_step_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/guide_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/guide_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-bottom-alipay-process.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-bottom-alipay-process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-bottom-alipay.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-bottom-alipay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-bottom-wechat.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-bottom-wechat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-bottom-wechat2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-bottom-wechat2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-carrier-dx.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-carrier-dx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-carrier-lt.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-carrier-lt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-carrier-yd.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-carrier-yd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-n-era.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-n-era.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-n-user-group.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-n-user-group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-n-user.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-n-user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-nav-ali-balance.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-nav-ali-balance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-pay-icon-rec.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-pay-icon-rec.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-pay-icon-send.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-pay-icon-send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-pay-money.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-pay-money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-pay-rec.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-pay-rec.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-pay-send.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-pay-send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-berry1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-berry1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-berry2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-berry2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-e.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-g.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-nav-alipay.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-nav-alipay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-nav-pay-detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-nav-pay-detail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-nav-wallet.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-nav-wallet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-nav-wallet.png-v=2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-nav-wallet.png-v=2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-nav.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-nav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-signal1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-signal1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-signal2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-signal2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-signal3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-signal3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-signal4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-signal4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-signal5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-signal5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-top-wifi.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-top-wifi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-voice-unread.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-voice-unread.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-w-pay-more.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-w-pay-more.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-w-pay-rec-time.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-w-pay-rec-time.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-w-pay-rec.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-w-pay-rec.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i-w-pay-sen-time.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i-w-pay-sen-time.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/list-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/list-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo-a-144.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo-a-144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo@x2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo@x2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo@x2.png-v=3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo@x2.png-v=3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/msg-del.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/msg-del.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pop-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pop-close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qqSmilies17ced3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qqSmilies17ced3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_100@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_100@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_101@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_101@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_102@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_102@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_103@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_103@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_104@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_104@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_105@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_105@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_10@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_10@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_11@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_11@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_12@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_12@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_13@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_13@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_14@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_14@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_15@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_15@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_16@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_16@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_17@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_17@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_18@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_18@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_19@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_19@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_1@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_21@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_21@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_22@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_22@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_23@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_23@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_24@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_24@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_25@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_25@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_26@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_26@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_27@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_27@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_28@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_28@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_30@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_30@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_31@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_31@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_32@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_32@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_33@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_33@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_34@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_34@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_35@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_35@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_36@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_36@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_37@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_37@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_38@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_38@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_39@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_39@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_3@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_41@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_41@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_42@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_42@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_43@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_43@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_44@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_44@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_45@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_45@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_46@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_46@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_47@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_47@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_48@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_48@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_49@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_49@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_4@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_4@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_50@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_50@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_51@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_51@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_52@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_52@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_53@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_53@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_54@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_54@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_55@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_55@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_56@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_56@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_57@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_57@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_58@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_58@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_59@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_59@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_61@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_61@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_62@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_62@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_63@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_63@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_64@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_64@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_65@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_65@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_66@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_66@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_67@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_67@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_68@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_68@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_69@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_69@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_6@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_6@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_70@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_70@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_71@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_71@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_72@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_73@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_73@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_74@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_74@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_75@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_75@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_77@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_77@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_78@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_78@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_79@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_79@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_7@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_7@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_80@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_80@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_81@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_81@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_82@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_82@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_83@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_83@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_84@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_84@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_85@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_85@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_86@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_86@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_87@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_87@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_88@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_88@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_89@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_89@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_8@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_8@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_90@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_90@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_91@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_91@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_92@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_92@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_93@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_93@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_94@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_94@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_95@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_95@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_96@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_96@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_97@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_97@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_98@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_98@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_99@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_99@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/qq_emoji/Expression_9@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qq_emoji/Expression_9@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rec-record.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/rec-record.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rec-txt-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/rec-txt-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sen-record.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/sen-record.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sen-txt-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/sen-txt-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/step_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/step_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/verify.html.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/verify.html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/w-pay-detail-$.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/w-pay-detail-$.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/w-pay-detail-gou.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/w-pay-detail-gou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet-$.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/wallet-$.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet-bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/wallet-bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet-bottom.png-v=2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/wallet-bottom.png-v=2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet-btns.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/wallet-btns.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/wallet-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wallet-logo.png-v=3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/wallet-logo.png-v=3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/water.png-v=2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/water.png-v=2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/emoji.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.sglide.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.sglide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sb-admin-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sb-admin-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/datetimepicker/datetimepicker_blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/datetimepicker/datetimepicker_blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/datetimepicker/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/datetimepicker/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font-awesome/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/font-awesome/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/html2canvas/html2canvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/metismenu/metisMenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/metismenu/metisMenu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/metismenu/metisMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/metismenu/metisMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/lib/smalot-bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshoots/liveShare.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshoots/liveShare.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshoots/liveShare1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshoots/liveShare1.gif" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vjietu_justChat$main.coverage" NAME="main Coverage Results" MODIFIED="1599820574935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="blank.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blank.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="608">
-                <caret line="19" column="92" lean-forward="false" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="157">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1515513886139" expanded="false" signature="8901:8948" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="8997:9061" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="9097:9141" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="9421:9440" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="9508:9568" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="9787:9847" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="9949:9968" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="10072:10106" ph="..." />
-                <marker date="1515513886139" expanded="false" signature="10148:10182" ph="..." />
-                <marker date="1515513886139" expanded="true" signature="29758:29775" ph="..." />
-                <marker date="1515513886139" expanded="true" signature="29932:29943" ph="..." />
-                <marker date="1515513886139" expanded="true" signature="34640:34659" ph="..." />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-              <folding />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emoji.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/emoji.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="535" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="535" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb-admin-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/sb-admin-2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
-                <marker date="1515506948473" expanded="true" signature="6794:6800" ph=" " />
+                <element signature="n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#i#0;n#div#1;n#div#7;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/wx2019.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1782">
+              <caret line="244" column="4" lean-forward="true" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+              <folding>
+                <element signature="e#2362#7219#0" />
+                <element signature="e#162#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +402,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -118,6 +411,12 @@
       <find>apps</find>
       <find>set</find>
       <find>Expression</find>
+      <find>msg-del</find>
+      <find>scale</find>
+      <find>scr</find>
+      <find>.ip</find>
+      <find>i-bo</find>
+      <find>iphone</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,11 +429,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/static/css/wx2019.css" />
+        <option value="$PROJECT_DIR$/static/css/common.css" />
+        <option value="$PROJECT_DIR$/static/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -142,15 +445,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="4" />
-    <option name="width" value="1936" />
-    <option name="height" value="1102" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -173,51 +470,44 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="vjietu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vjietu" type="462c0819:PsiDirectoryNode" />
+              <item name="vjietu-justChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vjietu-justChat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="vjietu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vjietu" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshoots" type="462c0819:PsiDirectoryNode" />
+              <item name="vjietu-justChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vjietu-justChat" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="D:\www\H5Project\src\views\vjietu\screenshoots" />
     </key>
   </component>
@@ -233,8 +523,34 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vjietu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -248,194 +564,179 @@
       <updated>1515511492817</updated>
       <workItem from="1515511494607" duration="4365000" />
       <workItem from="1528279501080" duration="2347000" />
+      <workItem from="1599646178756" duration="6165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6712000" />
+    <option name="totallyTimeSpent" value="12877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="4" width="1936" height="1102" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Project" order="1" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="make" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blank.html">
+    <entry file="file://$PROJECT_DIR$/static/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="666">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+    <entry file="file://$PROJECT_DIR$/static/js/emoji.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="535" selection-end-column="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phantoscope/venv/lib/python3.7/site-packages/flask/templating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phantoscope/venv/lib/python3.7/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1076" column="64" selection-start-line="1076" selection-start-column="64" selection-end-line="1076" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phantoscope/venv/lib/python3.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1950" selection-start-line="1950" selection-end-line="1950" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="64">
-            <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            <folding />
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <marker date="1515513886139" expanded="false" signature="8901:8948" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="8997:9061" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9097:9141" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9421:9440" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9508:9568" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9787:9847" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9949:9968" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="10072:10106" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="10148:10182" ph="..." />
-            <marker date="1515513886139" expanded="true" signature="29758:29775" ph="..." />
-            <marker date="1515513886139" expanded="true" signature="29932:29943" ph="..." />
-            <marker date="1515513886139" expanded="true" signature="34640:34659" ph="..." />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/emoji.js">
+    <entry file="file://$PROJECT_DIR$/static/css/blank.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/wx2019.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="535" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="535" />
-          <folding />
+        <state relative-caret-position="558">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sb-admin-2.js">
+    <entry file="file://$PROJECT_DIR$/static/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1782">
+          <caret line="244" column="4" lean-forward="true" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
+    <entry file="file://$PROJECT_DIR$/static/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
           <folding>
-            <marker date="1515506948473" expanded="true" signature="6794:6800" ph=" " />
+            <element signature="e#2362#7219#0" />
+            <element signature="e#162#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sb-admin-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
-            <marker date="1515506948473" expanded="true" signature="6794:6800" ph=" " />
+            <element signature="n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#i#0;n#div#1;n#div#7;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/emoji.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="535" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="535" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <marker date="1515513886139" expanded="false" signature="8901:8948" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="8997:9061" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9097:9141" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9421:9440" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9508:9568" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9787:9847" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="9949:9968" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="10072:10106" ph="..." />
-            <marker date="1515513886139" expanded="false" signature="10148:10182" ph="..." />
-            <marker date="1515513886139" expanded="true" signature="29758:29775" ph="..." />
-            <marker date="1515513886139" expanded="true" signature="29932:29943" ph="..." />
-            <marker date="1515513886139" expanded="true" signature="34640:34659" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="608">
-            <caret line="19" column="92" lean-forward="false" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
