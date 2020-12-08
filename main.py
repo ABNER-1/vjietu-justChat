@@ -16,7 +16,7 @@ def hello_world(path):
 
 @app.route('/')
 def root():
-    return app.send_static_file('index2.html')
+    return app.send_static_file('index.html')
 
 
 if __name__ == '__main__':

@@ -177,6 +177,7 @@ $(function(){
       $('.slt-minite,.slt-p-minite').append('<option' + s + '>' + h + '</option>');
     }
 
+
     $('.slt-common').change(function(){
       var val = $(this).find('option:selected').val();
       var _class = $(this).attr('data-class');
