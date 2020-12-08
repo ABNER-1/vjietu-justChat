@@ -242,7 +242,6 @@ a:focus, a:hover{
 	background: url(../images/i-n-user-group.png) no-repeat;
 }
 .i-body{
-	overflow-y: scroll;
 	position: absolute;
 	width: 100%;
 	top: 128px;
@@ -286,11 +285,11 @@ a:focus, a:hover{
 }
 .i-b-rec-text:after,
 .i-b-sen-text:after{
-	content: ""; 
-	display: block; 
-	height: 0; 
-	clear: both; 
-	visibility: hidden;  
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
  }
 .i-b-rec-text img,
 .i-b-sen-text img{
@@ -299,7 +298,7 @@ a:focus, a:hover{
 	height: 82px;
 	left: 0;
 	top: 0;
-	background: #fff;
+	background: #fff;border-radius:10px;
 }
 .i-b-sen-text img{
 	left: auto;
@@ -367,7 +366,7 @@ a:focus, a:hover{
 	border-radius: 10px;
 	position: relative;
 }
-.i-b-rec-text div span.i-wx-pic, 
+.i-b-rec-text div span.i-wx-pic,
 .i-b-sen-text div span.i-wx-pic{
 	background: none;
 	border: none;
@@ -543,7 +542,7 @@ a:focus, a:hover{
 	background-image: url(../images/i-bottom-wechat2.png);
 }
 .i-bottom2{
-	
+
 }
 .i-bottom-alipay{
 	background: url(../images/i-bottom-alipay.png) no-repeat;
@@ -575,7 +574,7 @@ a:focus, a:hover{
 .a-u-dialog-pay,
 .a-u-dialog-del,
 .a-u-dialog-master,
-.a-u-dialog-voice,
+.a-u-dialog-voice,.a-u-dialog-sedpacket,.a-u-dialog-redpacket,
 .a-u-dialog-pic{
 	float: left;
 	margin-right: 10px;
@@ -587,7 +586,7 @@ a:focus, a:hover{
 .a-u-dialog-pay,
 .a-u-dialog-del,
 .a-u-dialog-master,
-.a-u-dialog-voice,
+.a-u-dialog-voice,.a-u-dialog-sedpacket,.a-u-dialog-redpacket,
 .a-u-dialog-pic{
 	margin-top: 5px;
 }
@@ -817,7 +816,7 @@ a:focus, a:hover{
 	width: 100%;
 	padding: 10px 0;
 	background: #f1f1f1;
-	z-index: 999999;
+	z-index: 10;
 	border-top: 1px #ccc solid;
 	margin-left: -30px;
 }
@@ -1367,7 +1366,7 @@ a:focus, a:hover{
 }
 
 .navbar-header{
-	
+
 }
 
 .navbar-top-links li a{
@@ -1583,7 +1582,7 @@ img{
 	color: #fff;
 	background:#F47571;
 }
-.nav>li.btn-agent>a:focus, 
+.nav>li.btn-agent>a:focus,
 .nav>li.btn-agent>a:hover{
 	color: #fff;
 	background:#F47571;
@@ -1640,7 +1639,7 @@ img{
 }
 
 .doc{
-	
+
 }
 .doc .doc-title{
 	font-size: 16px;
@@ -1728,6 +1727,25 @@ img{
 	height: 172px;
 	background-image: url(../images/ftand_step_2.png?v=1);
 }
+
+.i-b-rec-text div.redpacket,.i-b-sen-text div.redpacket{display:inline-block;margin-left:82px;vertical-align:top;}
+.i-b-sen-text div.redpacket{float:right;margin-left:0px;margin-right:24px;}
+.i-b-rec-text div.redpacket i.arraw,.i-b-sen-text div.redpacket i.arraw{position: absolute;width: 14px;height: 24px;left: -13px;top: 28px;background:url(../images/chat_arraw_orange.png) no-repeat;background-size:100%;}
+.i-b-sen-text div.redpacket i.arraw{left:auto;right: -13px;-webkit-transform:scaleX(-1);}
+.i-b-rec-text .main,.i-b-sen-text .main{display:block;height:142px;-webkit-border-radius:10px 10px 0 0;border:1px solid rgba(0, 0, 0, 0.0);border-bottom:0;background:#ff9808;}
+.i-b-rec-text .clear-div,.i-b-sen-text .clear-div{margin: 0;position: inherit;clear: both;}
+.i-b-rec-text .content,.i-b-sen-text .content{display:block;position:relative;width:416px;margin-left:30px;}
+.i-b-rec-text .redpacket .main .icon,.i-b-sen-text .redpacket .main .icon{float:left;position:static;margin:31px 0 0 25px;width:68px;height:76px;background:url(../images/i-redpacket-icon@3x.png) no-repeat;background-size:100%;}
+.i-b-rec-text .main>h3,.i-b-sen-text .main>h3,
+.i-b-rec-text .main>h4,.i-b-sen-text .main>h4{float:left;margin:33px 15px 0;font-size:26px;color:#fff;font-weight:normal;}
+.i-b-rec-text .main>h4,.i-b-sen-text .main>h4{width:60%; margin-top:12px;font-size:30px;}
+.i-b-rec-text .redpacket .main>h3,.i-b-sen-text .redpacket .main>h3,
+.i-b-rec-text .redpacket .main>h4,.i-b-sen-text .redpacket .main>h4{float:left;margin:36px 20px 0;font-size:26px;color:#fff;font-weight:normal;width: 280px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.i-b-rec-text .redpacket .main>h4,.i-b-sen-text .redpacket .main>h4{width:60%; margin-top:17px;}
+.i-b-rec-text .foot,.i-b-sen-text .foot{display:block;height:48px;-webkit-border-radius:0 0 10px 10px;border:1px solid rgba(0, 0, 0, 0.2);border-top:0;background:#ffffff;}
+.i-b-rec-text .foot h3,.i-b-sen-text .foot h3{float:left;font-size:24px;margin:10px 0px 0 21px;color:#a5a5a5;font-weight:normal;}
+.i-b-time>span .orange{color: #FA9D3B;}
+.i-b-time>span .icon_redpacket{display:inline-block;height:34px;vertical-align:center;}
 
 @media (min-width: 768px){
 	#btn-menu{
@@ -1861,4 +1879,5 @@ img{
 		margin-left: -30px;
 		width: 88%;
 	}
+
 }

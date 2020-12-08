@@ -16,44 +16,111 @@ var browser = {
     };
   }(),
   language:(navigator.browserLanguage || navigator.language).toLowerCase()
-} 
+}
 
-function getOs() { 
-    var OsObject = ""; 
-   if(isIE = navigator.userAgent.indexOf("MSIE")!=-1) { 
-        return "MSIE"; 
-   } 
-   if(isFirefox=navigator.userAgent.indexOf("Firefox")!=-1){ 
-        return "Firefox"; 
-   } 
-   if(isChrome=navigator.userAgent.indexOf("Chrome")!=-1){ 
-        return "Chrome"; 
-   } 
-   if(isSafari=navigator.userAgent.indexOf("Safari")!=-1) { 
-        return "Safari"; 
-   }  
-   if(isOpera=navigator.userAgent.indexOf("Opera")!=-1){ 
-        return "Opera"; 
-   } 
-} 
+$(function(){
+    $('.go_make').click(function(){
+        start_make1($(this));
+    });
+});
 
-function toDecimal2(x) {    
-    var f = parseFloat(x);    
-    if (isNaN(f)) {    
-        return false;    
-    }    
-    var f = Math.round(x*100)/100;    
-    var s = f.toString();    
-    var rs = s.indexOf('.');    
-    if (rs < 0) {    
-        rs = s.length;    
-        s += '.';    
-    }    
-    while (s.length <= rs + 2) {    
-        s += '0';    
-    }    
-    return s;    
-}    
+function start_make1(_this){
+    $('.phone-wrap').css('transform','scale(1.0)');
+    makePic1(_this);
+}
+
+function makePic1(obj){
+    var _this = obj;
+    var div = $('#iphone').clone();
+
+    var my_image = $('.my-image');
+    var mask = $('.mask');
+    if(!my_image.length){
+        my_image = $('<div class="my-image">成功生成图片，点击 <a class="my-image-view" target="_blank" href="#">这里</a> 查看，<a class="my-image-continue" href="#">继续制作</a></div>');
+        $('body').append(my_image);
+    }
+    if(!mask.length){
+        $('body').append('<div class="mask"></div>');
+    }
+
+    div.removeClass('iphone-preview');
+    div.css({
+        zoom:1,
+        position:'absolute',
+        left:0,
+        top:0
+    });
+    $('#ifm').contents().find('body').append(div);
+    _this.hide();
+    $('.loading').show();
+    $('.my-image').hide();
+    $('.mask').hide();
+
+
+    html2canvas(div, {
+        onrendered: function(canvas) {
+            var myImage = canvas.toDataURL("image/png");
+
+            var pop_pic = $('.pop-pic');
+            var pop_class = 'pc';
+            if(browser.versions.mobile){
+                pop_class = 'mobile';
+            }
+            pop_pic.find('.tips').addClass(pop_class);
+            pop_pic.find('img').attr('src',myImage);
+            pop_pic.show();
+            $('#wrapper').hide();
+            $('.loading').hide();
+            _this.show();
+            div.remove();
+        }
+    });
+    return false;
+}
+
+function start_make(_this){
+    /*$('.phone-wrap').addClass('ok');
+        $('.phone-wrap').css('transform','scale(1.0)');*/
+        $('.phone-wrap').css('transform','scale(1.0)');
+        makePic(_this);
+}
+
+function getOs() {
+    var OsObject = "";
+   if(isIE = navigator.userAgent.indexOf("MSIE")!=-1) {
+        return "MSIE";
+   }
+   if(isFirefox=navigator.userAgent.indexOf("Firefox")!=-1){
+        return "Firefox";
+   }
+   if(isChrome=navigator.userAgent.indexOf("Chrome")!=-1){
+        return "Chrome";
+   }
+   if(isSafari=navigator.userAgent.indexOf("Safari")!=-1) {
+        return "Safari";
+   }
+   if(isOpera=navigator.userAgent.indexOf("Opera")!=-1){
+        return "Opera";
+   }
+}
+
+function toDecimal2(x) {
+    var f = parseFloat(x);
+    if (isNaN(f)) {
+        return false;
+    }
+    var f = Math.round(x*100)/100;
+    var s = f.toString();
+    var rs = s.indexOf('.');
+    if (rs < 0) {
+        rs = s.length;
+        s += '.';
+    }
+    while (s.length <= rs + 2) {
+        s += '0';
+    }
+    return s;
+}
 
 Number.prototype.formatMoney = function (places, symbol, thousand, decimal) {
     places = !isNaN(places = Math.abs(places)) ? places : 2;
@@ -117,8 +184,15 @@ $(function(){
         $('.' + _class).removeClass($(item).val());
       });
       $('.' + _class).addClass(val);
+
+		if(val=='i-n-user-group')
+		{
+			$(".input-common").val("群聊标题(3)");
+			$('.i-n-name span').text("群聊标题(3)");
+		}
+
     });
-      
+
     $('.rd-common').click(function(){
       var val = $(this).val();
       var _class = $(this).attr('data-class');
@@ -129,10 +203,11 @@ $(function(){
       }
     });
 
-    $('.input-common').bind('input propertychange', function() {  
+    $('.input-common').change( function() {
       var _class = $(this).attr('data-class');
       var val = $.trim($(this).val());
       $('.' + _class).text(val);
+      $('.' + _class).html(val);
     });
 
     //手机时间选择
@@ -157,9 +232,9 @@ $(function(){
     });
 
     $('body').on('click','.btn-rand-face',function(){
-      var face_path = 'face/';
-      var num = get_random_num(1,41);
-      var file_name = face_path + (10000 + num) + '.jpg';
+      var face_path = 'images/face/';
+      var num = get_random_num(1,40);
+      var file_name = face_path + num + '.jpg';
       var img = '<img src="' + file_name + '" />';
       $(this).parents('.add-user').find('.a-u-pic-show img').remove();
       $(this).parents('.add-user').find('.a-u-pic-show input').after(img);
@@ -167,17 +242,46 @@ $(function(){
       var _class = $(this).attr('data-class');
         if(_class){
         var obj = $('.' + _class);
-        if(obj.get(0).tagName.toLowerCase() == 'img'){
-          obj.attr('src',file_name);
-        }else{
-          obj.css('background-image','url(' + file_name + ')');
-        }
+            if(_class=='i-b-a-face_ali'){
+                //支付宝转账
+                $('.i-b-a-face_ali img').attr('src', file_name);
+            } else{
+                if(obj.get(0).tagName.toLowerCase() == 'img'){
+                    obj.attr('src',file_name);
+                }else{
+                    obj.css('background-image','url(' + file_name + ')');
+                }
+            }
       }
     });
 
+    $('body').on('click','.ali-btn-rand-face',function(){
+        var face_path = '/images/face/';
+        var num = get_random_num(1,40);
+        var file_name = face_path + num + '.jpg';
+        var img = '<img src="' + file_name + '" />';
+        $(this).parents('.add-user').find('.a-u-pic-show img').remove();
+        $(this).parents('.add-user').find('.a-u-pic-show input').after(img);
+
+        var _class = $(this).attr('data-class');
+        if(_class){
+            var obj = $('.' + _class);
+            if(_class=='i-b-a-face_ali'){
+                //支付宝转账
+                $('.i-b-a-face_ali img.changface').attr('src', file_name);
+            } else{
+                if(obj.get(0).tagName.toLowerCase() == 'img'){
+                    obj.attr('src',file_name);
+                }else{
+                    obj.css('background-image','url(' + file_name + ')');
+                }
+            }
+        }
+    });
+
     $('body').on('click','.btn-rand-username',function(){
-      var num = get_random_num(4,8);
-      var name = randomString(num,true);
+      //var num = get_random_num(4,8);
+      var name = randName();//randomString(num,true);
       $(this).parents('.add-user').find('.a-u-data-name').val(name);
     });
 
@@ -198,7 +302,7 @@ $(function(){
       // 'pill': false,
       'totalRange': [1,100],
       // 'locked': true,
-  
+
       'colorShift': ['#3a4d31', '#7bb560'],
       // 'vertical': true,
       'buttons': true,
@@ -213,7 +317,7 @@ $(function(){
 
     if(is_check_brower && (getOs() != 'Chrome' && getOs() != 'Safari')){
     //if(is_check_brower){
-      var browser = '<div class="browser"><a target="_blank" href="http://rj.baidu.com/soft/detail/14744.html"><span>o(︶︿︶)o 抱歉！您的浏览器不兼容，为了更好的制作效果，请用</span><i></i><em>谷歌浏览器</em><span>&nbsp;打开</span></a><a class="pop-close" href="#">x</a></div>';
+      var browser = '<div class="browser"><a target="_blank" href="http://www.12tool.com"><span>请勿在微信里面操作,直接复制网站地址到手机浏览器里面去操作!</span></a><a class="pop-close" href="#">x</a></div>';
       $('body').append(browser);
       $('body').append('<div class="mask"></div>');
       $('.mask').height($(document).height());
